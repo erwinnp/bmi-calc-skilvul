@@ -8,7 +8,23 @@
   </head>
   <body>
     <main>
-      <h1>BMI Calculator</h1>
+      <h1 class="title">
+        Check your <span>B</span>ody <span>M</span>ess <span>I</span>ndex
+      </h1>
+      <p class="subtitle">
+        Enter your weight and height below to check your BMI results
+      </p>
+      <form class="form__field">
+        <div class="weight__field">
+          <label for="weight">Put your weight in here (KG)</label>
+          <input type="number" name="weight" />
+        </div>
+        <div class="height__field">
+          <label for="height">Put your height in here (CM)</label>
+          <input type="number" name="height" />
+        </div>
+        <button type="submit">Calculate BMI</button>
+      </form>
     </main>
 
     <!-- Javascript File -->
