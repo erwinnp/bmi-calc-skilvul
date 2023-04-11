@@ -17,13 +17,15 @@
       <form class="form__field">
         <div class="weight__field">
           <label for="weight">Put your weight in here (KG)</label>
-          <input type="number" name="weight" />
+          <input type="number" id="weight" />
         </div>
         <div class="height__field">
           <label for="height">Put your height in here (CM)</label>
-          <input type="number" name="height" />
+          <input type="number" id="height" />
         </div>
-        <button type="submit">Calculate BMI</button>
+        <button id="submit-btn" type="submit">Calculate BMI</button>
+        <p class="alert__text"></p>
+        <p class="result__text"></p>
       </form>
     </main>
 

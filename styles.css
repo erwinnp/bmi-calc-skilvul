@@ -66,6 +66,17 @@ input {
   font-size: 16px;
 }
 
+.alert__text {
+  font-size: 14px;
+  font-weight: 600;
+  color: red;
+}
+
+.result__text {
+  color: #006d77;
+  font-weight: 300;
+}
+
 button {
   cursor: pointer;
   border: none;
